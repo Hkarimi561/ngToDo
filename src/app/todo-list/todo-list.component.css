@@ -25,3 +25,19 @@
   height: 75%;
 
 }
+
+
+.content{
+  max-height: 550px;
+  height: 550px;
+  overflow-y: scroll;
+}
+.content::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.content {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
